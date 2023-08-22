@@ -84,6 +84,10 @@
     .left-container{
         grid-template-columns: repeat(3, 15vw);
         grid-template-rows: repeat(3,15vw);
+        padding: 30px
+    }
+    .box{
+        padding: 30px;
     }
     .right-container h1{
         font-size: 1.8rem;
