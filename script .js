@@ -41,7 +41,7 @@ function checkWin() {
     }
   });
 
-  const isDraw = Array.from(boxes).every((box) => box.innerText !== "");
+  const isDraw = Array.from(boxes).every((box) => box.innerText !== "" && (isResultDecleared !== true));
 
   if (isDraw) {
    winner.innerText = "Draw!!";
